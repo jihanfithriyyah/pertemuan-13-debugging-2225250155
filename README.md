@@ -20,3 +20,12 @@ Program Python yang memproses data nilai mahasiswa (menghitung rata-rata, status
 1. **B01 (Rata-rata):** Pembagi menggunakan angka statis `5`, diperbaiki menggunakan `len(nilai)`.
 2. **B02 (Status):** Menggunakan operator `>`, sehingga nilai 60 terbaca tidak lulus, diperbaiki menjadi `>=`.
 3. **B03 (Nilai Tertinggi):** Inisialisasi awal bernilai `0` dan logika perbandingan salah, diperbaiki dengan elemen pertama list dan operator `>`.
+
+## Retest
+Seluruh test case (T1 sampai T5) telah dijalankan kembali setelah perbaikan kode dan menghasilkan status **PASS** tanpa adanya regresi[cite: 9, 14].
+
+## Cara Menjalankan
+python3 praktik/praktik_4_debugging.py[cite: 10]
+
+## Refleksi
+Teknik debugging yang paling membantu adalah penggunaan breakpoint dan pengujian berbasis test case (khususnya nilai batas), karena dapat langsung menunjukkan letak penyimpangan logika program secara akurat[cite: 10, 14].
